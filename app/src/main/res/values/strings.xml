@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Gurallery</string>
+    <string name="show_viral">Mostrar Virales</string>
+    <string name="change_view">Cambiar vista</string>
+    <string name="about">Acerca de</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="dev_time">Tiempo de desarrollo: 7 horas</string>
+    <string name="action_settings">Settings</string>
+    <string name="version">Versión: </string>
+    <string name="develop">Desarrollo </string>
+    <string name="about_developer">Sobre el desarrollador</string>
+    <string name="developer_info">Hobbies:\n• Desarrollador en Android\n• Videojuegos\n• Android FanBoy\n• Libros de Stephen King\n• Football Americano</string>
+    <string name="sort">Ordenar</string>
+    <string name="window">Window</string>
+</resources>

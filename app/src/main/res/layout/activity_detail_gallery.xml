@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context="com.rojoxpress.gurallery.DetailGalleryActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/pager"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:layout_marginTop="@dimen/abc_action_bar_default_height_material"
+        android:id="@+id/count_items"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mToolbar"
+        android:background="#88512da8"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:minHeight="@dimen/abc_action_bar_default_height_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:id="@+id/title"
+            android:maxLines="2"
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+    </android.support.v7.widget.Toolbar>
+
+</FrameLayout>
