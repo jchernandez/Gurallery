@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:background="@drawable/card_background"
-    android:padding="5dp"
-    android:layout_height="220dp">
+<FrameLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.android.volley.toolbox.NetworkImageView
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:scaleType="centerCrop"
-        android:id="@+id/item_image" />
+        android:background="@drawable/card_background"
+        android:padding="5dp"
+        android:layout_height="220dp">
 
-    <TextView
-        android:layout_marginTop="10dp"
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/item_image" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:lines="2"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/item_text" />
+    </LinearLayout>
+    <View
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:lines="2"
-        android:layout_gravity="center_vertical"
-        android:id="@+id/item_text" />
-
-
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:background="@drawable/touch_effect"/>
+</FrameLayout>
